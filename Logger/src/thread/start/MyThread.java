@@ -1,4 +1,4 @@
-package thread;
+package thread.start;
 import static util.MyLogger.log;
 
 public class MyThread implements Runnable {

@@ -1,7 +1,3 @@
-import thread.CounterRunnable;
-import thread.CounterThread;
-import thread.MyThread;
-
 import static util.MyLogger.log;
 
 public class Main {
