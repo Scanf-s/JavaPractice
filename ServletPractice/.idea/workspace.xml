@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b556356f-4eba-4eb5-bb98-31bdc75b0a6f" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/domain/HelloData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/request/RequestBodyJsonServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/request/RequestBodyTextServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/request/RequestFormDataServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/request/RequestHeaderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/request/RequestParamServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/webapp/basic/hello-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/response/ResponseHeaderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/response/ResponseJsonServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServletPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServletPractice/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736237565277</updated>
-      <workItem from="1736237566393" duration="9037000" />
+      <workItem from="1736237566393" duration="11320000" />
     </task>
     <servers />
   </component>
