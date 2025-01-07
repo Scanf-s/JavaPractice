@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b556356f-4eba-4eb5-bb98-31bdc75b0a6f" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/basic/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/webapp/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/response/ResponseHeaderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/response/ResponseJsonServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServletPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServletPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServletPractice/out/production/classes/com/sullung2yo/servletpractice/ServletPracticeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServletPractice/out/production/classes/com/sullung2yo/servletpractice/ServletPracticeApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServletPractice/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ServletPractice/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/ServletPracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/ServletPracticeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServletPractice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ServletPractice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736237565277</updated>
-      <workItem from="1736237566393" duration="4608000" />
+      <workItem from="1736237566393" duration="11320000" />
     </task>
     <servers />
   </component>
