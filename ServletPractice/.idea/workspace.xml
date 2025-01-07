@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b556356f-4eba-4eb5-bb98-31bdc75b0a6f" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/basic/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/webapp/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServletPractice/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServletPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServletPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServletPractice/out/production/classes/com/sullung2yo/servletpractice/ServletPracticeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServletPractice/out/production/classes/com/sullung2yo/servletpractice/ServletPracticeApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServletPractice/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ServletPractice/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/ServletPracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServletPractice/src/main/java/com/sullung2yo/servletpractice/ServletPracticeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServletPractice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ServletPractice/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2rIDC737E0GzEr0oryJ66lbG1MV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ServletPractice 빌드.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ServletPracticeApplication.executor": "Run",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "study/servlet",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/uijong/Development/OpenCV",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ServletPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ServletPractice.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sullung2yo.servletpractice.ServletPracticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="b556356f-4eba-4eb5-bb98-31bdc75b0a6f" name="변경" comment="" />
+      <created>1736237565277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736237565277</updated>
+      <workItem from="1736237566393" duration="4608000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
