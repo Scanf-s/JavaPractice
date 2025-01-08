@@ -37,13 +37,7 @@ public class UserListServlet extends HttpServlet {
         printWriter.write("</thead>");
         printWriter.write("<tbody>");
         printWriter.write("<tr>");
-/*
-printWriter.write("<td>1</td>");
-printWriter.write("<td>userA</td>");printWriter.write("
-printWriter.write("
-<td>10</td>");
-</tr>");
-*/
+
         for (User user : users) {
             printWriter.write("<tr>");
             printWriter.write("<td>" + user.getId() + "</td>");
