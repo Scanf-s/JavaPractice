@@ -1,5 +1,6 @@
 package com.sullung2yo.rabbitmq.direct_exchange;
 
+import com.sullung2yo.rabbitmq.distributed_consumers.DistributedConsumerConfig;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;
 
@@ -16,7 +17,7 @@ public class Sender {
     }
 
     public void send(String message) {
-        rabbitTemplate.convertAndSend(DirectExchangeConfig.QUEUE_NAME, message); // Direct Exchange 방식
+        rabbitTemplate.convertAndSend(DistributedConsumerConfig.QUEUE_NAME, message); // Direct Exchange 방식
         System.out.println("Sent <" + message + ">");
     }
 }
