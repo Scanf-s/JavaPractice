@@ -17,7 +17,8 @@ public class NotificationSubscriber {
 
     @RabbitListener(queues = RabbitMQConfig.QUEUE_NAME)
     public void subscriber(String message) {
-        // notification 큐(RabbitMQ)에서 메시지를 수신할 때 호출되는 메서드
+        // "notification"이라고 이름이 붙여진 큐(RabbitMQ)에서 메시지를 수신할 때 호출되는 메서드
+        // 즉, Subscriber이다.
         System.out.println("[#] Received Notification: " + message);
 
         // WebSocket 경로로 메시지를 전달 (모든 구독자에게 전송)

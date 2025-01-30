@@ -27,7 +27,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
         // 클라이언트의 구독 경로 = /topic
         registry.enableSimpleBroker("/topic"); // 메모리 기반의 SimpleBroker를 사용
 
-        // 서버의 Publish 경로 = /app
+        // 클라이언트가 데이터 전달 시 사용하는 경로
         registry.setApplicationDestinationPrefixes("/app");
     }
 }
