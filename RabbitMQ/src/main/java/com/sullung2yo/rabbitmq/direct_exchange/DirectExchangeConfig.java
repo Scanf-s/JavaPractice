@@ -1,15 +1,15 @@
-package com.sullung2yo.rabbitmq.direct_exchange;
-
-import org.springframework.amqp.core.Queue;
-import org.springframework.amqp.rabbit.connection.ConnectionFactory;
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
-import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-
-@Configuration
-public class DirectExchangeConfig {
+//package com.sullung2yo.rabbitmq.direct_exchange;
+//
+//import org.springframework.amqp.core.Queue;
+//import org.springframework.amqp.rabbit.connection.ConnectionFactory;
+//import org.springframework.amqp.rabbit.core.RabbitTemplate;
+//import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
+//import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter;
+//import org.springframework.context.annotation.Bean;
+//import org.springframework.context.annotation.Configuration;
+//
+//@Configuration
+//public class DirectExchangeConfig {
 //
 //    // 메세지 큐 이름 설정
 //    public static final String QUEUE_NAME = "MyQueue";
@@ -56,4 +56,4 @@ public class DirectExchangeConfig {
 //         */
 //        return new MessageListenerAdapter(receiver, "receiveMessage");
 //    }
-}
+//}

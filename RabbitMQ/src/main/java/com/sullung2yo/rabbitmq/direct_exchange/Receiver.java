@@ -1,12 +1,12 @@
-package com.sullung2yo.rabbitmq.direct_exchange;
-
-import org.springframework.stereotype.Component;
-
-@Component
-public class Receiver {
-
-    public void receiveMessage(String message) {
-        System.out.println("Received <" + message + ">");
-    }
-
-}
+//package com.sullung2yo.rabbitmq.direct_exchange;
+//
+//import org.springframework.stereotype.Component;
+//
+//@Component
+//public class Receiver {
+//
+//    public void receiveMessage(String message) {
+//        System.out.println("Received <" + message + ">");
+//    }
+//
+//}
