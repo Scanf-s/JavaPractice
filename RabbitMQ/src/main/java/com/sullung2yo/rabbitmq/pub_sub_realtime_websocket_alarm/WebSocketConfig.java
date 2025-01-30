@@ -13,7 +13,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        // STOMP를 사용하기 위한 엔드포인트 등록하는 메서드
+        // WebSocket 사용 시 STOMP를 사용하기 위한 엔드포인트 등록하는 메서드
         registry.addEndpoint("/ws") // WebSocket 연결을 위한 엔드포인트
                 .setAllowedOriginPatterns("*") // CORS 설정
                 .withSockJS(); // 클라이언트에서 SocketJS를 사용해서 WebSocket이 지원되지 않는 환경에서도 통신 가능하도록 설정
@@ -24,7 +24,10 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
         // 메세지 브로커 설정
         // 서버에서 클라이언트로 메세지를 전달할 때, 사용되는 엔드포인트를 지정하는 메서드
 
-        registry.enableSimpleBroker("/topic"); // 메모리 기반의 SimpleBroker를 사용하고, 클라이언트가 구독 시 이 경로를 사용하도록 설정한다.
-        registry.setApplicationDestinationPrefixes("/app"); // 클라이언트가 메세지를 전송할 때 "/app" 경로로 보내도록 설정
+        // 클라이언트의 구독 경로 = /topic
+        registry.enableSimpleBroker("/topic"); // 메모리 기반의 SimpleBroker를 사용
+
+        // 서버의 Publish 경로 = /app
+        registry.setApplicationDestinationPrefixes("/app");
     }
 }
