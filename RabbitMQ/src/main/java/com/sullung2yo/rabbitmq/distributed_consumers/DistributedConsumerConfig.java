@@ -1,25 +1,22 @@
-package com.sullung2yo.rabbitmq.direct_exchange;
-
-import org.springframework.amqp.core.Queue;
-import org.springframework.amqp.rabbit.connection.ConnectionFactory;
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
-import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-
-@Configuration
-public class DirectExchangeConfig {
+//package com.sullung2yo.rabbitmq.distributed_consumers;
 //
-//    // 메세지 큐 이름 설정
+//import org.springframework.amqp.core.AcknowledgeMode;
+//import org.springframework.amqp.core.Queue;
+//import org.springframework.amqp.rabbit.connection.ConnectionFactory;
+//import org.springframework.amqp.rabbit.core.RabbitTemplate;
+//import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
+//import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter;
+//import org.springframework.context.annotation.Bean;
+//import org.springframework.context.annotation.Configuration;
+//
+//@Configuration
+//public class DistributedConsumerConfig {
+//    // Queue name
 //    public static final String QUEUE_NAME = "MyQueue";
 //
 //    @Bean
-//    public Queue queue() {
-//        // amqp Queue
-//        // QUEUE_NAME : Queue 이름 지정
-//        // durable: false (휘발성-volatile), true (영속성-persistent)
-//        return new Queue(QUEUE_NAME, false);
+//    public Queue queue(){
+//        return new Queue(QUEUE_NAME, true); // duration=True로 설정하여 실패하더라도 작업이 여전히 남아있도록 구성
 //    }
 //
 //    @Bean
@@ -44,16 +41,19 @@ public class DirectExchangeConfig {
 //        container.setConnectionFactory(connectionFactory); // 연결 관리 인스턴스 설정
 //        container.setQueueNames(QUEUE_NAME); // 메세지를 수신하려는 큐 이름 설정
 //        container.setMessageListener(messageListenerAdapter); // 리스너 인스턴스 설정 -> AMQP에서 메세지를 자동으로 수신하기 위해 필요
+//        container.setAcknowledgeMode(AcknowledgeMode.AUTO);
+//
+//        // 동시에 처리할 수 있는 Consumer 개수
+//        container.setConcurrentConsumers(3);
+//
+//        // Round Robin 방식으로 동작하기 위해, RabbitMQ가 각 Consumer에게 하나씩만 메세지를 보내도록 설정
+//        container.setPrefetchCount(1);
 //        return container;
 //    }
 //
 //    @Bean
-//    public MessageListenerAdapter messageListenerAdapter(Receiver receiver) {
-//        /*
-//         * 이 Bean은 수신한 메세지를 특정 클래스의 특정 메서드로 전달할 때 사용함
-//         * Receiver는 메세지를 처리하는 역할을 수행 (Comsumer 역할) -> 직접 어떻게 메세지를 처리할지는 알아서 구현해야겠지??
-//         * RabbitMQ에서 수신된 메세지를 특정 메서드에 전달 -> Receiver의 receiveMessage 메서드가 호출되고 -> 메세지를 처리하게 되는 방식
-//         */
-//        return new MessageListenerAdapter(receiver, "receiveMessage");
+//    public MessageListenerAdapter messageListenerAdapter(Consumer consumer) {
+//        return new MessageListenerAdapter(consumer, "consume");
 //    }
-}
+//
+//}
