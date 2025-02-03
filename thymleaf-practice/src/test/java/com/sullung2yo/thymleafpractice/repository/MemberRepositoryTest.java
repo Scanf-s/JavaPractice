@@ -19,7 +19,7 @@ class MemberRepositoryTest {
     void findById() {
         //Given
         Member member = Member.builder()
-                .username("sullung2yo")
+                .name("sullung2yo")
                 .build();
 
         memberRepository.save(member);
@@ -30,20 +30,20 @@ class MemberRepositoryTest {
         //Then
         assertThat(foundMember).isPresent();
         assertThat(foundMember.get().getId()).isEqualTo(member.getId());
-        assertThat(foundMember.get().getUsername()).isEqualTo(member.getUsername());
+        assertThat(foundMember.get().getName()).isEqualTo(member.getName());
     }
 
     @Test
     void existsByUsername() {
         //Given
         Member member = Member.builder()
-                .username("sullung2yo")
+                .name("sullung2yo")
                 .build();
 
         memberRepository.save(member);
 
         //When
-        boolean exists = memberRepository.existsByUsername(member.getUsername());
+        boolean exists = memberRepository.existsByUsername(member.getName());
 
         //Then
         assertThat(exists).isEqualTo(true);
